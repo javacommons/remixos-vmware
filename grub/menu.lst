@@ -1,0 +1,21 @@
+default=0
+timeout=6
+splashimage=/grub/android-x86.xpm.gz
+root (hd0,0)
+
+title Remix OS (1920px x 1080px)
+	kernel /RemixOS/kernel quiet root=/dev/ram0 SERIAL=random logo.showlogo=1 androidboot.selinux=permissive SRC=/RemixOS vga=0x367
+	initrd /RemixOS/initrd.img
+
+title Remix OS (1280px x 720px)
+	kernel /RemixOS/kernel quiet root=/dev/ram0 SERIAL=random logo.showlogo=1 androidboot.selinux=permissive SRC=/RemixOS vga=0x364
+	initrd /RemixOS/initrd.img
+
+title Remix OS (1024px x 768px)
+	kernel /RemixOS/kernel quiet root=/dev/ram0 SERIAL=random logo.showlogo=1 androidboot.selinux=permissive SRC=/RemixOS vga=0x341
+	initrd /RemixOS/initrd.img
+
+title Remix OS (800px x 600px)
+	kernel /RemixOS/kernel quiet root=/dev/ram0 SERIAL=random logo.showlogo=1 androidboot.selinux=permissive SRC=/RemixOS vga=0x340
+	initrd /RemixOS/initrd.img
+
