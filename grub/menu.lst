@@ -1,4 +1,4 @@
-default=0
+default=1
 timeout=6
 splashimage=/grub/android-x86.xpm.gz
 root (hd0,0)
