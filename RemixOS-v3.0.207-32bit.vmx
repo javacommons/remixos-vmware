@@ -1,6 +1,6 @@
 .encoding = "Shift_JIS"
 config.version = "8"
-virtualHW.version = "8"
+virtualHW.version = "9"
 vcpu.hotadd = "TRUE"
 scsi0.present = "TRUE"
 scsi0.virtualDev = "lsilogic"
